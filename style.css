@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom right, #f4f4ff, #dcdcff);
+}
+.card-img-top{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+.card{
+    border-radius: 0px !important;
+    cursor: pointer;
+    height: 100%;
+    gap: 15px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
